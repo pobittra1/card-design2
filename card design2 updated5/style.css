@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.container .card{
+    background-color: gray;
+    margin: 0px 15px;
+    margin-top: -150px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    width: 270px;
+    transition:box-shadow 0.5s, transform 0.5s;
+
+
+}
+
+
+
+.card:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+    transform: scale(1.05);
+
+}
+
+.card1:hover{
+    background: linear-gradient(rgb(106, 141, 106), white);
+}
+
+.card2:hover{
+    background: linear-gradient(rgb(28, 218, 28), rgb(226, 142, 142));
+}
+.card3:hover{
+    background: linear-gradient(rgb(233, 126, 55), rgb(235, 183, 183));
+}
+
+
+
+.container .card .menubar{
+    padding: 10px 0px 0px 10px;
+    position: relative;
+    color: white;
+}
+
+
+.container .card .menubar .left{
+    color: white;
+}
+
+
+.container .card .menubar .right1{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color: white;
+}
+
+.container .card .menubar .right2{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
+
+
+
+.card .logo-div{
+}
+
+.card .logo-div img{
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card .img-content-body{
+    text-align: center;
+
+
+
+}
+
+
+.card .img-content-body h2{
+    color: white;
+    font-family: 'Moon Dance', cursive;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+.card .img-content-body .p1{
+    color: rgb(53, 37, 37);
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+.card .img-content-body .p2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.card .img-content-body .btn{
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 25px 0px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid black;
+    background-color: gray;
+    width: 130px;
+    height: 35px;
+    position: relative;
+}
+
+
+
+.card .img-content-body .btn:hover{
+    width: 130px;
+
+}
+
+hr{
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+
+.icon2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+
+.icon2 a{
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(to right ,rgb(37, 63, 53) 80%, rgb(190, 135, 135) 20%);
+    margin: 10px 15px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.icon2 a .fab{
+    position: relative;
+    z-index: 10;
+}
+
+
+.icon2 a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    background: linear-gradient(-45deg, rgb(10, 224, 171), rgb(15, 65, 26));
+    transition: top 0.5s;
+
+}
+
+
+.icon2 a:hover::after{
+    top: 0px;
+}
+
+
+.icon2 a:hover{
+    transform: translateY(-10px);    
+}
+
+
+footer{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: -10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer .a1{
+    padding: 0px 10px;
+}
+
+footer .a1 p{
+    font-size: 13px;
+}
